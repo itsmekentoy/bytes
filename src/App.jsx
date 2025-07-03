@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Code, Smartphone, Cloud, Palette, Bot, Wrench, Monitor, Mail, Phone, MapPin, ChevronDown, ChevronLeft, ChevronRight, ExternalLink, Github } from 'lucide-react';
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 export default function ByteSolutionsLanding() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [contactForm, setContactForm] = useState({ name: '', email: '', message: '' });
@@ -122,8 +122,11 @@ export default function ByteSolutionsLanding() {
   };
 
   return (
+    
     <div className="w-full min-h-screen bg-white text-black">
+      <SpeedInsights />
       {/* Navigation */}
+      
       <nav className="fixed w-full z-50 bg-black shadow-lg border-b border-gray-300">
         <div className="w-full max-w-none px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
