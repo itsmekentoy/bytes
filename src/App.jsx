@@ -73,7 +73,8 @@ export default function ByteSolutionsLanding() {
     { icon: Palette, title: "UI/UX Design", desc: "Beautiful and intuitive user interface designs" },
     { icon: Bot, title: "AI Automation", desc: "Intelligent automation solutions for business processes" },
     { icon: Wrench, title: "Support & Maintenance", desc: "Ongoing technical support and system maintenance" },
-    { icon: Monitor, title: "Windows Applications", desc: "Desktop applications for Windows environments" }
+    { icon: Monitor, title: "Windows Applications", desc: "Desktop applications for Windows environments" },
+    { icon: Monitor,title: "Cisco Packet Tracer",desc, "Network Management using a Packet Tracer"}
   ];
 
   const techStack = [
